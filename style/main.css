@@ -3,3 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --accent: #e02c6d;
+}
+
+body {
+  font-family: "Poppins", "Inter", sans-serif;
+}
