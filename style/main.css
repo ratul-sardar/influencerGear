@@ -1,4 +1,4 @@
-@import "tailwindcss";
+/* @import "tailwindcss"; */
 
 * {
   margin: 0;
@@ -10,6 +10,38 @@
   --accent: #e02c6d;
 }
 
+h1 {
+  font-size: 3.25rem;
+  line-height: 134%;
+}
+
+h2 {
+  font-size: 2.375rem;
+  line-height: 157%;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
 body {
   font-family: "Poppins", "Inter", sans-serif;
+}
+
+/* Shared class */
+
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+/* non shared classes and ids */
+
+#logo {
+  font-size: 1.5rem;
+  font-weight: 700;
 }
